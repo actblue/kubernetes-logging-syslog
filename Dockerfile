@@ -1,4 +1,4 @@
-FROM alpine:3.13.5
+FROM alpine:3.17.1
 ENV RSYSLOG_PORT=514 RSYSLOG_PROTOCOL=udp
 
 RUN apk add --no-cache rsyslog gettext
